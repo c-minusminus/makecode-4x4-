@@ -148,7 +148,7 @@ namespace tileUtil {
     //% group="Tilemaps" weight=25 blockGap=8
     //% help=github:arcade-tile-util/docs/clone-map
     export function cloneMap(map: tiles.TileMapData): tiles.TileMapData {
-        const buffer = control.createBuffer(4 + map.width * map.height);
+        const buffer = control.createBuffer(2 + map.width * map.height);
         buffer.setNumber(NumberFormat.UInt16LE, 0, map.width);
         buffer.setNumber(NumberFormat.UInt16LE, 2, map.height);
 
