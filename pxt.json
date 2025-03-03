@@ -1,22 +1,14 @@
 {
-    "name": "arcade-tile-util",
-    "version": "1.2.0",
-    "description": "",
+    "name": "chuddle",
+    "version": "0",
+    "description": "chuds",
     "dependencies": {
         "device": "*"
     },
     "files": [
-        "main.ts",
-        "README.md",
-        "assets.json",
         "state.ts",
         "api.ts",
-        "tiles.util.jres",
-        "tiles.util.ts",
         "icon.png"
-    ],
-    "testFiles": [
-        "test.ts"
     ],
     "targetVersions": {
         "target": "1.8.20",
